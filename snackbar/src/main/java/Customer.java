@@ -1,5 +1,3 @@
-package snackbar;
-
 public class Customer
 {
     private static int maxId = 0;
@@ -7,14 +5,12 @@ public class Customer
     private String name;
     private double balance;
 
-
-    public Customer( String name, double coh)
+    public Customer( String name, double balance)
     {
         maxId++;
         this.id = maxId;
         this.name = name;
         this.balance = balance;
-
 
     }
 
